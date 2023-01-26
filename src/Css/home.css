@@ -1,0 +1,38 @@
+body{
+  
+    box-sizing: border-box;
+    width: 100%;
+    
+    
+}
+ .texty{
+  
+    color:  rgb(214, 178, 16);
+}
+.main{
+    background: #95e2e7;
+   
+   
+    
+}
+
+
+
+.img-container{
+
+    width: 100%;    
+     
+}
+.laundry{
+    /* color: #365658; */
+    color: gold;
+}
+.img{
+   width: 90%;
+   border-radius: 50%;
+}
+.pricelist{
+    /* background-color:#689ca0; */
+    color: #e5e9e9;
+   
+}

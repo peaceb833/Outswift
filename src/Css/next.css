@@ -1,0 +1,35 @@
+.next-container{
+    background-color: #ffff;
+}
+.second-img{
+    width: 80%;
+}
+.b{
+    background-color:transparent;
+    border: 1px solid   rgb(82, 82, 145);
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px gray;
+    font-weight: bold;
+}
+.font{
+    border-radius: 10px; 
+    padding: 7px;
+    /* background-color: #66a2a7; */
+    background-color: rgb(82, 82, 145);
+    color:white;
+    font-size: 1.3em;
+}
+.laund{
+    color:  rgb(82, 82, 145);
+    font-size: 1.5em;
+}
+.laund-special{
+    color: rgb(82, 82, 145);
+    
+}
+.what-we-do::after{
+    content: "";
+    background: #000;
+    width: 2%;
+    height: 2%;
+}          
