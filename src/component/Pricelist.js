@@ -1,8 +1,8 @@
 
 import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Css/pricelist.css"
-import { faClose} from '@fortawesome/free-solid-svg-icons'
+// import { faClose} from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect } from 'react'
 import Nav from '../RE-use/Nav'
 import AOS from 'aos'
