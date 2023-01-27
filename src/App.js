@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Frontpage from './component/Frontpage';
 import {BrowserRouter as  Router , Route,Routes } from 'react-router-dom'
 import Loginpage from './component/Loginpage';
@@ -9,8 +9,7 @@ import Booknow from './component/Booknow';
 import ScrollToTop from './component/ScrollToTop';
 
 
-class App extends Component  {
-  render() {
+const App=()=>{
     return(
       <div className="App">
          
@@ -33,6 +32,5 @@ class App extends Component  {
      </div>
     )
   }
-}
 
 export default App;

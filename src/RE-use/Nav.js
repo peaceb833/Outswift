@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 import '../Css/nav.css'
 import Image from '../RE-use/Image'
 import { Link } from 'react-router-dom'
+import { Link as LinkScroll} from "react-scroll"
 
 function BasicExample() {
   useEffect(()=>{
@@ -22,9 +23,9 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
    
           <Nav className="  text-center  fs-bold  me-md-5   mx-auto " data-aos="zoom-in" >
-            <Nav><Link to="How" smooth-scroll='true' className=' mt-md-2 mt-4  me-md-5  text-decoration-none   navy'><p className='text-primary'> How it works</p></Link></Nav>
-            <Nav><Link to="Price" smooth-scroll='true' className=' mt-md-2 mt-4   me-md-5  text-decoration-none '><p className='text-primary'>Prices & Services</p></Link></Nav>
-            <Nav><Link to="/Learnmore" data-aos="fade-left" className=' mt-md-2  mt-4  me-md-5   text-decoration-none'><p className='text-primary'>About us</p></Link></Nav>
+            <Nav><LinkScroll to="How" smooth-scroll='true' className=' mt-md-2 mt-4  me-md-5  text-decoration-none   navy'><p className='text-primary'> How it works</p></LinkScroll></Nav>
+            <Nav><LinkScroll to="Price" smooth-scroll='true' className=' mt-md-2 mt-4   me-md-5  text-decoration-none '><p className='text-primary'>Prices & Services</p></LinkScroll></Nav>
+            <Nav><LinkScroll to="About" data-aos="fade-left" className=' mt-md-2  mt-4  me-md-5   text-decoration-none'><p className='text-primary'>About us</p></LinkScroll></Nav>
             </Nav>
           
             <Nav><Link to="/Loginpage"   className='mt-md-2 text-center mx-md-auto  mt-4 fw-bold text-primary text-decoration-none '><p className=''>Login</p></Link></Nav>

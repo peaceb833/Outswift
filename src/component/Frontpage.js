@@ -7,7 +7,7 @@ import "../Css/home.css"
 import Next from './Next'
 import About from './About'
 import Footer from './Footer'
-import { Link } from 'react-router-dom'
+import { Link  } from 'react-router-dom'
 const Frontpage = () => {
   useEffect(()=>{
     AOS.init({duration:2000});
