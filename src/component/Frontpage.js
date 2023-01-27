@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Nav from '../RE-use/Nav'
 import feel from '../images/IMG-20230126-WA0007.jpg'
-import vector from '../images/240_F_517843386_FxYIxJ7Nb9rGObTIsxG7OgkIl6CkhCkw.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import "../Css/home.css"
@@ -23,7 +22,7 @@ const Frontpage = () => {
     </div>
 
    <div className=' text-center   img-container'>
-   <img data-aos="fade-up" className='mx-auto mt-4  img text-center img-fluid ' src={feel}/>
+   <img data-aos="fade-up" className='mx-auto mt-4  img text-center img-fluid ' src={feel} alt="laundry"/>
      </div>
      </div>
      </div>

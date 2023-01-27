@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from '../RE-use/Nav'
 import '../Css/login.css'
 import { Link } from 'react-router-dom'
 import Image from '../RE-use/Image'

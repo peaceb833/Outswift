@@ -32,7 +32,7 @@ const Next = () => {
         <div className='row mx-auto mt-3  '  data-aos="fade-right">
             
             <div  className='col-md-6 text-center px-4 mt-5'>
-              <img  src={img2} className="mx-auto second-img rounded "/>
+              <img  src={img2} className="mx-auto second-img rounded " alt='all'/>
                </div>
                <div className='col-md-6 text-right mt-5 '>
             <h1 className='h6 text-secondary mt-0 mt-md-5'>FREEDOM FROM LAUNDRY</h1>
@@ -57,14 +57,14 @@ const Next = () => {
              
                       </div>
                       <div  className='col-md-6 '>
-                          <img  src={img3} className="mx-auto mb-4 mt-4 second-img rounded "/>
+                          <img  src={img3} className="mx-auto mb-4 mt-4 second-img rounded " alt='man'/>
                              </div>
                             </div>
 
                              <hr/>
             <div className='row mx-auto mt-md-5 pt-4 px-3 mt-5' data-aos="fade-up" >
             <div  className='col-md-6 ' data-aos="fade-right">
-              <img  src={img} className="mx-auto second-img rounded "/>
+              <img  src={img} className="mx-auto second-img rounded " alt=' customer support'/>
                  </div>
                      
 

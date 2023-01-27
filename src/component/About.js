@@ -9,7 +9,7 @@ const About = () => {
         <p className='h4 mt-4 mb-5 text-center fw-bolder  text-secondary'> About Outswift</p>
           <div className='container row'>
             <div className=' text-center col-md-6  col-sm-12 '>
-              <img src={vector} className="text-center"/></div>
+              <img src={vector} className="text-center" alt='demonstration' /></div>
               <div className='col-md-6 col-sm-12'>
                 <h2 className='h4 mt-3  text-secondary  text-lg-start   '>We Are Passionate About Laundry</h2>
                 <p className='text-lg-start text-left '>Looking for professional dry cleaners in London? ProLaundry is your best option if you want a customised service which is easy to use, reliable and provides a quality option for all your laundry and dry cleaning needs.
