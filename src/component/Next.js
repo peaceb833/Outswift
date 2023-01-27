@@ -8,6 +8,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import img from '../images/istockphoto-843177236-612x612.jpg'
 import img2 from '../images/istockphoto-1182647877-612x612.jpg'
 import img3 from '../images/istockphoto-1287632118-612x612.jpg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -36,8 +37,8 @@ const Next = () => {
                </div>
                <div className='col-md-6 text-right mt-5 px-3  '>
             <h1 className='h6 text-secondary mt-0 mt-md-5 text-center text-md-start'>FREEDOM FROM LAUNDRY</h1>
-            <p className=' h5 text-primary text-center '>A laundry service designed for you</p>
-            <p className='text-center'>Never worry about staining your favourite shirt. We offer laundry, dry cleaning and ironing at a schedule that fits your lifestyle.</p>
+            <p className=' h5 text-primary text-center text-md-start'>A laundry service designed for you</p>
+            <p className='text-center text-md-start'>Never worry about staining your favourite shirt. We offer laundry, dry cleaning and ironing at a schedule that fits your lifestyle.</p>
             <div className='  mt-5 text-center' data-aos="fade-left"><FontAwesomeIcon icon={faAngleDoubleDown} className="font  bg-primary rounded p-2  text-white h3 text-center"/></div>
            
             </div>
@@ -46,10 +47,10 @@ const Next = () => {
           <hr/>
          
         <div className='row mx-auto mt-md-5 pt-4 px-5  mb-3'data-aos="fade-left">
-          <div className='col-md-6 mx-auto  text-center '>
+          <div className='col-md-6 mx-auto  text-center text-md-start '>
            <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 '>24H TURNAROUND TIME</h1> 
              <p className='h5 text-primary mt-3 '>No need to plan in advance</p>
-             <div>
+             <div className="">
               
              <div className='mt-3 d-flex '><FontAwesomeIcon icon={faClock} className="font bg-primary text-white rounded p-1 h5 me-3"/><p className='h6' > 24h turn-around time</p></div>
  <div className=' mt-3 d-flex'><FontAwesomeIcon icon={faCab} className="font  bg-primary rounded p-1 text-white h5 me-3"/> <p className='h6' >Free collection and delivery</p></div>
@@ -69,12 +70,13 @@ const Next = () => {
                      
 
               <div className='col-md-6 text-right mt-4 ' >
-                  <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 text-center'>24/7 CUSTOMER SUPPORT</h1> 
-                      <p className='text-primary h4 text-center'>We’re here for you</p>
-                          <p className='text-center'>Any change in delivery times or date, or if something goes wrong, we are here. Our online customer support team will assist you day and night.</p>
-                            <div className='text-center'><button className='py-1  text-primary  b  '> Chat With Us</button></div>
+                  <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 text-center text-md-start'>24/7 CUSTOMER SUPPORT</h1> 
+                      <p className='text-primary h6 text-center text-md-start'>We’re here for you</p>
+                          <p className='text-center text-md-start'>Any change in delivery times or date, or if something goes wrong, we are here. Our online customer support team will assist you day and night.</p>
+                  <div className='text-center'><Link to='https://call.whatsapp.com/voice/sFxsefF6HORBq2qYBA0IPr'></Link><button className='py-1  text-primary  b  '> Chat With Us</button></Link></div>
                              </div>
-                             </div>
+                             
+                             
     
 
 </div>
