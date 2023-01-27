@@ -22,12 +22,12 @@ const Footer = () => {
         <div class=" re col-6 col-md-3  ">
           <p class=" text-white fw-bold text-center ">Our Service</p>
           <ul class="remove text-left  small">
-        <a href="#"  className="info  text-white"> <li>Laundry Service</li></a>
-         <a href="#"  className="info  text-white"><li>Dry Cleaning Service</li></a>
-         <a href="#" className="info  text-white"> <li>Ironing Service</li></a>
-         <a href="#" className="info  text-white"> <li>Washing and Ironing</li></a>
-         <a href="#" className="info  text-white"> <li></li></a> 
-         <a href="#" className="info  text-white"> <li>Clothing Alterations</li></a>
+         <Link to='/' className="info  text-white"> <li>Laundry Service</li></Link>
+         <Link to='/'  className="info  text-white"><li>Dry Cleaning Service</li></Link>
+         <Link to='/' className="info  text-white"> <li>Ironing Service</li></Link>
+         <Link to='/' className="info  text-white"> <li>Washing and Ironing</li></Link>
+         <Link to='/' className="info  text-white"> <li></li></Link> 
+         <Link to='/' className="info  text-white"> <li>Clothing Alterations</li></Link>
          
 
          
@@ -35,20 +35,20 @@ const Footer = () => {
         </div>
         <div class=" col-6 col-md-3  re"><p class="last-title text-white fw-bold text-center"> Work with us</p>
         <ul class="remove mt-3 mx-3 small">
-          <a href="#"  className="info  text-white"> <li>Careers</li></a>
-           <a href="#"  className="info  text-white"><li>Partner drivers</li></a>
-           <a href="#" className="info  text-white"> <li>Cleaning partners</li></a>
-           <a href="#" className="info  text-white"> <li>Hotel partnerships</li></a>
-           <a href="#" className="info  text-white"> <li>Student discount</li></a>
+           <Link to='/' className="info  text-white"> <li>Careers</li></Link>
+           <Link to='/'  className="info  text-white"><li>Partner drivers</li></Link>
+           <Link to='/' className="info  text-white"> <li>Cleaning partners</li></Link>
+           <Link to='/' className="info  text-white"> <li>Hotel partnerships</li></Link>
+           <Link to='/' className="info  text-white"> <li>Student discount</li></Link>
 
 
           </ul></div>
         <div class=" re col-6 col-md-3"><p class="last-title text-white fw-bold mx-4">Explore</p>
           <ul class="remove mt-3 small">
-            <a href="#"  className="info  text-white "> <li>How it works</li></a>
-             <a href="#"  className="info  text-white"><li>Prices & Services</li></a>
-             <a href="#" className="info  text-white"> <li>Help center</li></a>   
-             <a href="#" className="info  text-white"> <li>Chat with us</li></a>                
+          <Link to='/' className="info  text-white "> <li>How it works</li></Link>
+          <Link to='/'  className="info  text-white"><li>Prices & Services</li></Link>
+          <Link to='/' className="info  text-white"> <li>Help center</li></Link>   
+          <Link to='/' className="info  text-white"> <li>Chat with us</li></Link>                
              
   </ul>
      </div>
