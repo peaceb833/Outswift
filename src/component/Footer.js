@@ -8,7 +8,8 @@ const Footer = () => {
 <div className=' footer bg-secondary   '>
    <div className='container row'>
         <div class="re text-white col-6 col-md-3 ">
-          <p class="last-title text-white fw-bold  text-center ">Quick Links</p>
+          <p class="last-title text-white fw-bold 
+           text-center ">Quick Links</p>
           <ul class="remove mt-3 text-white liststyle-none small ">
             <Link to='/' className="info text-white"> <li className='mx-3'>About Us</li></Link>
            <Link to='/'className="info text-white"><li className='mx-3'>Pricing</li></Link>
