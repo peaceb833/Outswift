@@ -20,8 +20,8 @@ const Next = () => {
             <h1 className='h3 font-bold text-center text-secondary  what-we-do w-50 mx-auto '>What We Do?<br/></h1>
           </div>
           <div className='text-center   mt-3'>
-            <div className='row mx-5 justify-content-between '>
-                <div className='col-md-4 mt-4 d-flex mb-3  d-flex justify-content-center   mx-auto '>
+            <div className='row justify-content-between '>
+                <div className='col-md-4 mt-4 d-flex mb-3  d-flex justify-content-center    '>
                   <FontAwesomeIcon icon={faClock} className="  bg-primary me-3 font"/><p className='h6 fw-bold small text-secondary mt-2' > 24h turn-around time</p></div>
                 <div className='col-md-4 d-flex mx-2 mx-md-0 mt-2 mt-md-4 justify-content-center '><FontAwesomeIcon icon={faCab} className="    bg-primary  me-3 font "/> <p className='h6 fw-bold text-secondary small mt-2' >Free collection and delivery</p></div>
                 <div className='col-md-4   d-flex  justify-content-center  mt-4 '><FontAwesomeIcon icon={faPhone} className="   bg-primary font me-3  "/> <p className='h6 fw-bold text-secondary mt-2 small ' >Dedicated 24/7 support</p></div>
@@ -46,8 +46,8 @@ const Next = () => {
 
           <hr/>
          
-        <div className='row mx-auto mt-md-5 pt-4 px-3  mb-3'data-aos="fade-left">
-          <div className='col-md-6 mx-auto  text-center text-md-start '>
+        <div className='row mx-auto mt-md-5 pt-4 px-3   mb-3'data-aos="fade-left">
+          <div className='col-md-6 mx-auto   '>
            <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 '>24H TURNAROUND TIME</h1> 
              <p className='h5 text-primary mt-3 '>No need to plan in advance</p>
              <div className="">
@@ -55,12 +55,12 @@ const Next = () => {
              <div className='mt-3 d-flex '><FontAwesomeIcon icon={faClock} className="font bg-primary text-white rounded p-1 h5 me-3"/><p className='h6' > 24h turn-around time</p></div>
  <div className=' mt-3 d-flex'><FontAwesomeIcon icon={faCab} className="font  bg-primary rounded p-1 text-white h5 me-3"/> <p className='h6' >Free collection and delivery</p></div>
              </div>
-             
-                      </div>
+            </div>
                       <div  className='col-md-6 '>
                           <img  src={img3} className="mx-auto mb-4 mt-4 second-img rounded " alt='man'/>
                              </div>
                             </div>
+                            
 
                              <hr/>
             <div className='row mx-auto mt-md-5 pt-4 px-3 mt-5' data-aos="fade-up" >
@@ -70,11 +70,11 @@ const Next = () => {
                      
 
               <div className='col-md-6 text-right mt-4 ' >
-                  <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 text-center text-md-start'>24/7 CUSTOMER SUPPORT</h1> 
-                      <p className='text-primary h5 text-center text-md-start'>We’re here for you</p>
-                          <p className='text-center text-md-start'>Any change in delivery times or date, or if something goes wrong, we are here. Our online customer support team will assist you day and night.</p>
-                  <div className='text-center'>
-                    <Link to='https://call.whatsapp.com/voice/sFxsefF6HORBq2qYBA0IPr'><button className='py-1  text-primary  b  '> Chat With Us</button></Link></div>
+                  <h1 className='seconadry h6 text-secondary mt-0 mt-md-5'>24/7 CUSTOMER SUPPORT</h1> 
+                      <p className='text-primary h5 '>We’re here for you</p>
+                          <p className=''>Any change in delivery times or date, or if something goes wrong, we are here. Our online customer support team will assist you day and night.</p>
+                  <div className=''>
+                    <Link to=''><button className='py-1  text-primary  b  '> Chat With Us</button></Link></div>
                              </div>
                              </div>
                       
