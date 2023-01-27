@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom'
 const Loginpage = () => {
   return (
     <>
-    <div className='bg-primary'>
+    
       <Nav/>
+      <div className='bg-primary p-3'>
         <form className=' bg-light  mt-5    mx-auto p-5  validate'>
-  <div class="form-group py-3">
+  <div class="form-group  py-3">
     <label for="exampleInputEmail1 "className='text-primary fw-bold'>Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
     <small id="emailHelp" class="form-text text-muted text-secondary small">We'll never share your email with anyone else.</small>
