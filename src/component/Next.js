@@ -73,14 +73,13 @@ const Next = () => {
                   <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 text-center text-md-start'>24/7 CUSTOMER SUPPORT</h1> 
                       <p className='text-primary h6 text-center text-md-start'>We’re here for you</p>
                           <p className='text-center text-md-start'>Any change in delivery times or date, or if something goes wrong, we are here. Our online customer support team will assist you day and night.</p>
-                  <div className='text-center'><Link to='https://call.whatsapp.com/voice/sFxsefF6HORBq2qYBA0IPr'></Link><button className='py-1  text-primary  b  '> Chat With Us</button></Link></div>
+                  <div className='text-center'>
+                    <Link to='https://call.whatsapp.com/voice/sFxsefF6HORBq2qYBA0IPr'><button className='py-1  text-primary  b  '> Chat With Us</button></Link></div>
                              </div>
-                             
-                             
-    
-
-</div>
-    </div>
+                             </div>
+                      
+                     </div>
+                         </div>
   )
 }
 
