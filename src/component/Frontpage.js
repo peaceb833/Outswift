@@ -31,7 +31,7 @@ const Frontpage = () => {
   <Next/>
   <div id='Price' className='pricelist p-3 bg-primary  ' data-aos="zoom-in">
       <p className='h4 text-center mb-3  mt-5'>Our Pricelist</p>
-      <p className=' mb-5 mx-auto'> At outswift laundry we look forward to all cutomer satisfaction
+      <p className=' mb-5 px-4'> At outswift laundry we look forward to all cutomer satisfaction
         we give one of the best price all of our client can afford  
         Click the button below to explore our price list.</p>
        <div className='row text-center mt-4'>
