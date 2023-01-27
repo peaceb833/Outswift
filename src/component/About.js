@@ -11,8 +11,8 @@ const About = () => {
             <div className=' text-center col-md-6  col-sm-12 '>
               <img src={vector} className="text-center"/></div>
               <div className='col-md-6 col-sm-12'>
-                <h2 className='h4 mt-3  text-secondary  text-lg-start text-center  '>We Are Passionate About Laundry</h2>
-                <p className='text-lg-start text-center '>Looking for professional dry cleaners in London? ProLaundry is your best option if you want a customised service which is easy to use, reliable and provides a quality option for all your laundry and dry cleaning needs.
+                <h2 className='h4 mt-3  text-secondary  text-lg-start   '>We Are Passionate About Laundry</h2>
+                <p className='text-lg-start text-left '>Looking for professional dry cleaners in London? ProLaundry is your best option if you want a customised service which is easy to use, reliable and provides a quality option for all your laundry and dry cleaning needs.
 
                 Whether you have specific garments that need dry cleaning only, you run a hectic lifestyle and need to automate some of your household chores or you’re simply looking for a professional service to make your day-to-day life easier, we can help keep your clothes looking their best for longer.
                 

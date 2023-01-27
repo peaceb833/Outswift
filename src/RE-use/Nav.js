@@ -16,8 +16,8 @@ function BasicExample() {
   return (
     <Navbar   className=' h6 nav  ' role="button"  expand="lg"  data-aos="zoom-down">
 
-      <Container className='  '  >
-        <Navbar.Brand  data-aos="zoom-down" ><Link to="/"><Image/></Link></Navbar.Brand>
+      <Container className='px-0  '  >
+        <Navbar.Brand  data-aos="zoom-down" className=' ' ><Link to="/"  className=' '><Image/></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav "/>
         <Navbar.Collapse id="basic-navbar-nav">
    
@@ -28,7 +28,7 @@ function BasicExample() {
             </Nav>
           
             <Nav><Link to="/Loginpage"   className='mt-md-3 text-center mx-md-auto  mt-4 fw-bold text-primary text-decoration-none '><p className=''>Login</p></Link></Nav>
-            <Nav><Link to="/PriceList"  data-aos="fade-left" className='text-center mx-3' > <button className=' bb btn   fw-bold  py-2 me-3  text-white   bg-primary'>BOOK NOW</button></Link></Nav>
+            <Nav><Link to="/PriceList"  data-aos="fade-left" className='text-center mx-3 ' > <button className=' bb btn mx-3 fw-bold  py-2 me-3  text-white   bg-primary'>BOOK NOW</button></Link></Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
