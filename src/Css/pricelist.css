@@ -3,7 +3,10 @@
 width: 100;
 height: fit-content;
 }
-.cloth{
-   color: #e9ecec; 
+th{
+   color: rgba(250, 243, 243, 0.822); 
    font-weight: bold;
+}
+td{
+    color: rgba(250, 243, 243, 0.822);   
 }
