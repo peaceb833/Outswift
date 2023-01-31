@@ -27,9 +27,8 @@ const Frontpage = () => {
    <img data-aos="fade-up" className='mx-auto mt-4  img text-center img-fluid ' src={feel} alt="laundry"/>
      </div>
      </div>
-    <aside className=''>
+    
       <Call />
-      </aside> 
 
   <Next/>
   <div id='Price' className='pricelist p-3  bg-primary  ' data-aos="zoom-in">

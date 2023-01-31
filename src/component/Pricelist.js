@@ -8,6 +8,7 @@ import React, { useEffect } from 'react'
 import Nav from '../RE-use/Nav'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Call from '../RE-use/Call'
 const Pricelist = () => {
         useEffect(()=>{
           AOS.init({duration:2000}); 
@@ -17,6 +18,7 @@ const Pricelist = () => {
     <div className='list bg-primary list ' id='Pricelist'>
         <Nav />
       <div className=' mt-4 p-2 '>
+        <Call />
      
         <h1 className='h3 text-light fw-bold text-center mb-5  ' data-aos="fade-down">Outswift Pricelist</h1>
         <table className="table table-striped" data-aos="fade-down">
