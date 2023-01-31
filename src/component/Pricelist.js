@@ -1,4 +1,5 @@
 
+
 import { Link } from 'react-router-dom'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "../Css/pricelist.css"
@@ -9,11 +10,11 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 const Pricelist = () => {
         useEffect(()=>{
-          AOS.init({duration:2000});
+          AOS.init({duration:2000}); 
         }, [])
   return (
     <>
-    <div className='list bg-primary ' id='Pricelist'>
+    <div className='list bg-primary list ' id='Pricelist'>
         <Nav />
       <div className=' mt-4 p-2 '>
      

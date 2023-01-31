@@ -1,4 +1,10 @@
 form{
     width:fit-content;
     height: fit-content;  
+    border-radius: 20px;
+}
+.login{
+    background: url(../images/smooth-wave-blue-design_1182-559.jpg);
+    background-size: cover;
+   
 }

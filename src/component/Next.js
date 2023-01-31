@@ -9,7 +9,7 @@ import img from '../images/istockphoto-843177236-612x612.jpg'
 import img2 from '../images/istockphoto-1182647877-612x612.jpg'
 import img3 from '../images/istockphoto-1287632118-612x612.jpg'
 import { Link } from 'react-router-dom'
-
+import { Link as LinkScroll} from "react-scroll"
 
 
 const Next = () => {
@@ -39,14 +39,16 @@ const Next = () => {
             <h1 className='h6 text-secondary mt-0 mt-md-5 text-center text-md-start'>FREEDOM FROM LAUNDRY</h1>
             <p className=' h5 text-primary text-center text-md-start'>A laundry service designed for you</p>
             <p className='text-center text-md-start'>Never worry about staining your favourite shirt. We offer laundry, dry cleaning and ironing at a schedule that fits your lifestyle.</p>
-            <div className='  mt-5 text-center' data-aos="fade-left"><FontAwesomeIcon icon={faAngleDoubleDown} className="font  bg-primary rounded p-2  text-white h3 text-center"/></div>
+            <div className='  mt-5 text-center' data-aos="fade-left">
+              <LinkScroll to='Time'> <FontAwesomeIcon icon={faAngleDoubleDown} role="button" className="font  bg-primary rounded p-2  text-white h3 text-center"/></LinkScroll>
+              </div>
            
             </div>
         </div>
 
           <hr/>
          
-        <div className='row mx-auto mt-md-5 pt-4 px-3   mb-3'data-aos="fade-left">
+        <div className='row mx-auto mt-md-5 pt-4 px-3   mb-3'data-aos="fade-left" id='Time'>
           <div className='col-md-6 mx-auto   '>
            <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 '>24H TURNAROUND TIME</h1> 
              <p className='h5 text-primary mt-3 '>No need to plan in advance</p>

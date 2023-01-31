@@ -1,24 +1,19 @@
 import React from 'react'
 import '../Css/login.css'
 import { Link } from 'react-router-dom'
-import Image from '../RE-use/Image'
+import Nav from '../RE-use/Nav'
+import '../Css/login.css'
 const Signuppage = () => {
   return (
     <>
-     <div className=' bg-white p-3  d-flex justify-content-between '>
-  <div>
-   <Link to='/'  className='text-primary fw-bold'>Back</Link>
-  </div>
-  <div>
-  <Link to='/Pricelist'  className='text-primary fw-bold'>
-   <button className= ' bg-primary text-white btn h5 fw-bold'>Price List</button>
-   </Link>
-   </div>
+      <Nav/>
+     <div className=' bg-white   d-flex justify-content-between '>
  </div>
-    <div className='bg-primary p-3'>
+    <div className='bg-primary p-3  login'>
         <form className=' bg-light  mt-5    mx-auto p-5  validate'>
-  <div class="form-group py-3">
-  <Image/>
+        <h4 className='text-center mt-2 fw-bold text-primary'>Welcome</h4>
+  <div class="form-group py-3 mt-5">
+    
     <label for="exampleInputEmail1 "className='text-primary fw-bold'>Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -33,7 +28,7 @@ const Signuppage = () => {
 </div>
   
     <div className='text-center '> 
-    <Link to='/Loginpage'><button type="submit" class="btn bg-primary text-light fw-bold text-center mt-4 px-4">Signup</button></Link>
+    <Link to='/Loginpage'><button type="submit" class="btn bg-primary text-light fw-bold text-center w-75 mt-4 px-4">Signup</button></Link>
   <p className='mt-5 small text-secondary'> have an account Already?<Link to='/Loginpage' className='text-decoration-none'> <span className='text-primary fw-bold' type='button'> Signin </span></Link></p>
   </div>
 </form>

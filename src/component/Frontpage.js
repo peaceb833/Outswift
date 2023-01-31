@@ -8,6 +8,8 @@ import Next from './Next'
 import About from './About'
 import Footer from './Footer'
 import { Link  } from 'react-router-dom'
+import Call from '../RE-use/Call'
+
 const Frontpage = () => {
   useEffect(()=>{
     AOS.init({duration:2000});
@@ -26,23 +28,25 @@ const Frontpage = () => {
      </div>
      </div>
      </div>
-     
+    <aside className='fixed bg-danger'>
+      <Call />
+      </aside> 
     
   <Next/>
   <div id='Price' className='pricelist p-3 bg-primary  ' data-aos="zoom-in">
-      <p className='h4 text-center mb-3  mt-5'>Our Pricelist</p>
+      <p className='h4 text-center mb-1  mt-5'>Our Pricelist</p>
       <p className=' mb-5 px-4'> At outswift laundry we look forward to all cutomer satisfaction
         we give one of the best price all of our client can afford  
         Click the button below to explore our price list.</p>
-       <div className='row text-center mt-4'>
-        <div className='col-sm-6 col-md-4 mt-3' >
+       <div className='row text-center '>
+        <div className='col-sm-6 col-md-4 ' >
           <h2>Silver Plan </h2>
           <p>Just Washing</p>
-          <p>delivery in 5 Working days</p>
+          <p>delivery in 3 Working days</p>
         </div>
         <div className='col-sm-6 col-md-4 mt-2' mt-3> <h2>Gold Plan</h2>
           <p>Washing & Starching </p>
-            <p>delivery in 3 Working days</p></div>
+            <p>delivery in 2 Working days</p></div>
         <div className='col-sm-6 col-md-4 mt-3'>
         <h2>Platinum Plan </h2>
           <p>Washing + Ironing & Starching</p>
