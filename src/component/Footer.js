@@ -6,10 +6,9 @@ const Footer = () => {
     <div>
     <footer id='Contact' >
 <div className=' footer bg-secondary   '>
-   <div className="row">
+   <div className=" container row">
         <div class="re  col-6 col-md-4 ">
-          <p class="last-title mx-5  text-white fw-bold 
-            ">Quick Links</p>
+          <p class="last-title mx-5 h6  text-white fw-bold ">Quick Links</p>
           <ul class="remove mt-3 text-white liststyle-none small ">
             <Link to='/' className="info text-white"> <li className='mx-3'>About Us</li></Link>
            <Link to='/'className="info text-white"><li className='mx-3'>Pricing</li></Link>
