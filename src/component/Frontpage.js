@@ -15,7 +15,7 @@ const Frontpage = () => {
     AOS.init({duration:2000});
   }, [])
   return (
-    <div>
+    <div className='p-0'>
       <div className=' bg-primary' id='home'>
       <Nav  />
     <div className='container d-md-flex flex-row justify-content-center py-5 mt-5'>
@@ -27,13 +27,12 @@ const Frontpage = () => {
    <img data-aos="fade-up" className='mx-auto mt-4  img text-center img-fluid ' src={feel} alt="laundry"/>
      </div>
      </div>
-     </div>
-    <aside className='fixed bg-danger'>
+    <aside className=''>
       <Call />
       </aside> 
-    
+
   <Next/>
-  <div id='Price' className='pricelist p-3 bg-primary  ' data-aos="zoom-in">
+  <div id='Price' className='pricelist p-3  bg-primary  ' data-aos="zoom-in">
       <p className='h4 text-center mb-1  mt-5'>Our Pricelist</p>
       <p className=' mb-5 px-4'> At outswift laundry we look forward to all cutomer satisfaction
         we give one of the best price all of our client can afford  
@@ -45,23 +44,25 @@ const Frontpage = () => {
           <p>delivery in 3 Working days</p>
         </div>
         <div className='col-sm-6 col-md-4 mt-2' mt-3> <h2>Gold Plan</h2>
-          <p>Washing & Starching </p>
+          <p>Washing & Starching -</p>
             <p>delivery in 2 Working days</p></div>
         <div className='col-sm-6 col-md-4 mt-3'>
         <h2>Platinum Plan </h2>
           <p>Washing + Ironing & Starching</p>
            <p>delivery in 24hrs</p>
         </div>
-
        </div>
-
-        <div className='text-center mt-3'>
+       </div>
+        <div className='text-center mt-3 py-2 '>
         <Link to="/Pricelist"><button className='p-2 rounded bg-white fw-bold  text-primary btn'>View Pricelist</button></Link>
         </div>  
   </div>
-  <About/>
-  <Footer/>
+
+  <About  data-aos="flip-in"/>
+<Footer />
     </div>
+    
+  
    
    
   )

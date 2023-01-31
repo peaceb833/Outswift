@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../RE-use/Nav'
 import '../Css/login.css'
 import { Link } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Loginpage = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  }, [])
   return (
     <>
     <Nav />
     
-      <div className='bg-primary p-3 login'>
+      <div className='bg-primary p-3 login' data-aos="fade-up">
         <form className=' bg-light  mt-5    mx-auto p-5  validate'>
           <h4 className='text-center fw-bold text-primary'>Welcome</h4>
   <div class="form-group mt-5  py-3">

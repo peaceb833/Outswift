@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../Css/next.css"
 import vector from '../images/240_F_517843386_FxYIxJ7Nb9rGObTIsxG7OgkIl6CkhCkw-removebg-preview.png'
 import { Link } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  }, [])
+
   return (
     <div>
-        <div className=' About-container  p-4  'id='about'>
+        <div className=' About-container  p-4  'id='about'  data-aos="flip-left">
         <p className='h4 mt-4 mb-5 text-center fw-bolder  text-secondary'> About Outswift</p>
           <div className='container row'>
             <div className=' text-center col-md-6  col-sm-12 '>

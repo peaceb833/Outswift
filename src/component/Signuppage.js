@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Css/login.css'
 import { Link } from 'react-router-dom'
 import Nav from '../RE-use/Nav'
 import '../Css/login.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Signuppage = () => {
+    useEffect(()=>{
+    AOS.init({duration:2000});
+  }, [])
+
   return (
     <>
       <Nav/>
-     <div className=' bg-white   d-flex justify-content-between '>
- </div>
-    <div className='bg-primary p-3  login'>
+     <div className=' bg-white   d-flex justify-content-between' >
+    <div className='bg-primary p-3  login' data-aos="flip">
         <form className=' bg-light  mt-5    mx-auto p-5  validate'>
         <h4 className='text-center mt-2 fw-bold text-primary'>Welcome</h4>
   <div class="form-group py-3 mt-5">
@@ -32,6 +37,7 @@ const Signuppage = () => {
   <p className='mt-5 small text-secondary'> have an account Already?<Link to='/Loginpage' className='text-decoration-none'> <span className='text-primary fw-bold' type='button'> Signin </span></Link></p>
   </div>
 </form>
+    </div>
     </div>
     </>
   )
