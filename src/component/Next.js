@@ -47,7 +47,7 @@ const Next = () => {
           <div className='col-md-6 mx-auto  '>
             <div className='mx-5'>
            <h1 className='seconadry h6 text-secondary mt-0 mt-md-5 '>24H TURNAROUND TIME</h1> 
-             <p className='h5 text-primary mt-3 '>No need to plan in advance</p>
+             <p className='h6  text-primary mt-3 '>No need to plan in advance</p>
              <div className="">
              <div className='mt-3 d-flex '><FontAwesomeIcon icon={faClock} className="font bg-primary text-white rounded p-1 h5 me-3"/><p className='h6' > 24h turn-around time</p></div>
               <div className=' mt-3 d-flex'><FontAwesomeIcon icon={faCab} className="font  bg-primary rounded p-1 text-white h5 me-3"/> <p className='h6' >Free collection and delivery</p></div>

@@ -8,8 +8,8 @@ import fourth from '../images/240_F_391347204_XaDg0S7PtbzJRoeow3yWO1vK4pnqBVQY.j
 function Testimonial() {
   return (
     <>
-    <div className='bg-light '>
-    <h4 className='text-center text-primary mt-3 mb-5 '>Testimony</h4>
+    <div className='bg-light py-2'>
+    <h5 className='text-center text-primary mt-3 mb-5 '>TESTIMONY</h5>
     <Carousel fade>
       <Carousel.Item>
         <img
@@ -29,9 +29,9 @@ function Testimonial() {
           alt="Second slide"
         />
 
-          <div className='text-center w-75 mx-auto'>
+          <div className=' w-75 mx-auto'>
           <h5 className='text-primary h6 mt-2 text-center'>Damilola Oyinloye</h5>
-          <p className='text-secondary mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className='text-secondary mx-auto'>Friendly service and it makes life so much more easier not having to worry about. I never had anything missing with</p>
           </div>
         
       </Carousel.Item>
@@ -42,10 +42,10 @@ function Testimonial() {
           alt="Third slide"
         />
 
-       <div className='text-center w-75 mx-auto'>
+       <div className='w-75 mx-auto'>
           <h3 className='text-primary text-center h6 mt-2'>Faith odoma</h3>
           <p className='text-secondary mx-auto'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Great prices, excellent service and always on time. Best laundry service in Lagos state!
           </p>
        </div>
       </Carousel.Item>
@@ -56,11 +56,10 @@ function Testimonial() {
     src={fourth}
     alt="fourth slide"
   />
- <div className='text-center w-75 mx-auto'>
+ <div className=' w-75 mx-auto'>
     <h3 className='text-primary text-center h6 mt-2'>Mattew Tobi</h3>
     <p className='text-secondary mx-auto'>
-      Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-    </p>
+    Outwift. Overall I am happy with the service i recieved and I will definitely be using them again in the near future.</p>
  </div>
 </Carousel.Item>
 
