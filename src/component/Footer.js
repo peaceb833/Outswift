@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import '../Css/footer.css'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import WhatsappIcon from '@material-ui/icons/WhatsApp';
+import InstagramIcon from '@material-ui/icons/Instagram';
+
+
+
 const Footer = () => {
   return (
     <div>
@@ -47,7 +54,13 @@ const Footer = () => {
           <Link to='/' className="info  text-white "> <li>How it works</li></Link>
           <Link to='/'  className="info  text-white"><li>Prices & Services</li></Link>
           <Link to='/' className="info  text-white"> <li>Help center</li></Link>   
-          <Link to='/' className="info  text-white"> <li>Chat with us</li></Link>                
+          <Link to='/' className="info  text-white"> <li>Chat with us</li></Link>  
+          <h1 className='text-center text-light bg-light rounded  '>
+             <FacebookIcon className='p-1 text-primary' />
+              <TwitterIcon className='p-1  text-primary'/>
+              <WhatsappIcon className='p-1 text-primary'/>
+              <InstagramIcon className=' p-1 text-primary'/>
+              </h1>              
              
   </ul>
      </div>

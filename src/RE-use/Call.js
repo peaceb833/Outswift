@@ -4,9 +4,9 @@ import ChatIcon from '@material-ui/icons/Chat';
 import "../Css/call.css"
 const Call = () => {
   return (
-    <div className='text-end  mt-5 pt-5 fw-bold h1 fixed-bottom   '>
+    <div className='text-end  mb-5 pb-5 fw-bold h1 fixed-bottom   '>
     <Link to='Time' className='text-center '>
-        <ChatIcon className='  text-white  bg-primary fonty p-1'fontSize='Large'></ChatIcon>
+        <ChatIcon className='  text-white  bg-primary fonty 'fontSize='Large'></ChatIcon>
     </Link>
 
     </div>

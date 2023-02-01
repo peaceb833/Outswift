@@ -9,6 +9,7 @@ import About from './About'
 import Footer from './Footer'
 import { Link  } from 'react-router-dom'
 import Call from '../RE-use/Call'
+import Testimonial from './Testimonial'
 
 const Frontpage = () => {
   useEffect(()=>{
@@ -58,6 +59,7 @@ const Frontpage = () => {
   </div>
 
   <About  data-aos="flip-in"/>
+  <Testimonial />
 <Footer />
     </div>
     
