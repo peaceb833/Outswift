@@ -16,11 +16,11 @@ const Next = () => {
   return (
     <div>
         <div className=' next-container   py-3' id='How'>
-            <div className='mt-5 '>
-            <h1 className='h3 font-bold text-center text-secondary  what-we-do  mx-auto '>What We Do?<br/></h1>
+            <div className='mt-4 mb-5 '>
+            <h1 className='h3 font-bold text-center text-secondary  what-we-do  mx-auto '>How it Works<br/></h1>
           </div>
           <div className='text-center   mt-3'>
-            <div className=''>
+            <div className='mt-4'>
                 <div className='col-md-4 mt-4 mb-3    '>
                   <FontAwesomeIcon icon={faClock} className="  bg-primary font"/><p className='h6 fw-bold small text-secondary mt-2' > 24h turn-around time</p>
                   </div>
