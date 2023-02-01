@@ -44,7 +44,7 @@ const Frontpage = () => {
 
     <img src={images1} alt="iron" className='w-50'/>
 
-    <p className='fw-bold mt-3'>IRONING SERVICE </p>
+    <p className='fw-bold mt-3  text-primary'>IRONING SERVICE </p>
     <p className='text-secondary'>
       Get your washed clothes wrinkled free by our ironing service and look professional.
     </p>
@@ -55,19 +55,19 @@ const Frontpage = () => {
 
   <img src={images2} alt="wash and iron" className='w-50'/>
 
-  <p className='fw-bold mt-3'>WASHING</p>
+  <p className='fw-bold mt-3  text-primary'>WASHING</p>
   <p className='text-secondary'>Need your clothe properly washed? you are at the right destination.</p>
 
   </div>
 
   <div  className='col-6 col-md-3 mt-3 mt-md-0'>
   <img src={images3} alt="dry clean" className='w-50'/>
-  <p className='fw-bold mt-3'>DRY CLEANING</p>
+  <p className='fw-bold mt-3  text-primary'>DRY CLEANING</p>
   <p className='text-secondary'>We dry clean your clothe so nice that it will look crisp when you wear it.</p>
   </div>
   <div  className='col-6 col-md-3 mt-3 mt-md-0'>
   <img src={images4} alt="treat" className='w-50' />
-  <p className='fw-bold mt-3'>TREATMENT</p>
+  <p className='fw-bold mt-3  text-primary'>TREATMENT</p>
   <p className='text-secondary'>
     We treat your clothes perfectly for a second time or more Use.
     with no regret.
