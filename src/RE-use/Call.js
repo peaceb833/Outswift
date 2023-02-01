@@ -6,7 +6,7 @@ const Call = () => {
   return (
     <div className='text-end  mb-5 pb-5 fw-bold h1 fixed-bottom   '>
     <Link to='Time' className='text-center '>
-        <ChatIcon className='  text-white  bg-primary fonty 'fontSize='Large'></ChatIcon>
+        <ChatIcon className='  text-white  bg-primary fonty 'fontSize='large'></ChatIcon>
     </Link>
 
     </div>

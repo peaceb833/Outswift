@@ -9,7 +9,7 @@ function Testimonial() {
   return (
     <>
     <div className='bg-light py-2'>
-    <h5 className='text-center text-primary mt-3 mb-5 '>TESTIMONY</h5>
+    <h5 className='text-center text-primary mt-3 mb-5 fw-bold '>TESTIMONY</h5>
     <Carousel fade>
       <Carousel.Item>
         <img
