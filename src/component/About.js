@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import "../Css/next.css"
 import vector from '../images/240_F_517843386_FxYIxJ7Nb9rGObTIsxG7OgkIl6CkhCkw-removebg-preview.png'
 import { Link } from 'react-router-dom'
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
 
   return (
     <div>
-        <div className=' About-container  p-4  'id='about'  data-aos="flip-left">
+        <div className=' About-container  p-4  'id='About'  data-aos="flip-left">
         <p className='h4 mt-4 mb-5 text-center fw-bolder  text-secondary'> About Outswift</p>
           <div className='container row'>
             <div className=' text-center col-md-6  col-sm-12 '>
@@ -24,7 +25,7 @@ const About = () => {
                 
                 </p>
                 <div className=' mt-3 text-lg-start text-center  '>
-                <Link to="/Learnmore"><button className=' btn  rounded text-white fw-bold   bg-primary py-2 px-3'>Learn More</button></Link>
+                <Link to="/Learnmore"><button className=' btn  rounded text-white fw-bold bt  bg-primary py-2 px-3'>Learn More</button></Link>
                 </div>
                 </div>
                 </div>

@@ -1,6 +1,11 @@
 import React from 'react'
 import Footer from './Footer'
 import Nav from '../RE-use/Nav'
+import images1 from '../images/iron_318-901503.png'
+import images2 from '../images/laundry_318-903037.png'
+import images3 from '../images/dry_318-751780.png'
+import images4 from '../images/ironing_318-765187.png'
+
 const Learnmore = () => {
   return (
     <>
@@ -48,6 +53,29 @@ const Learnmore = () => {
            <p>We take extreme attention to detail of your garments, isolating your things in light of 
             their sorts and needs, and offering you uncommonly clean garments as a trade off.</p>
           </div>
+   </div>
+
+   <div className='text-center'>
+    <h1 className='text-primary h3 mb-5'>List of Our Services</h1>
+    <div className='container row mx-auto mt-4'>
+      <div  className='col-6 col-md-3'>
+        <img src={images1} alt="iron" className='w-50'/>
+        <p className='fw-bold'>IRONING</p>
+      </div>
+      <div  className='col-6 col-md-3'>
+      <img src={images2} alt="wash and iron" className='w-50'/>
+      <p className='fw-bold'>WASHING</p>
+      </div>
+      <div  className='col-6 col-md-3'>
+      <img src={images3} alt="dry clean" className='w-50'/>
+      <p className='fw-bold'>DRY CLEANING</p>
+      </div>
+      <div  className='col-6 col-md-3'>
+      <img src={images4} alt="treat" className='w-50' />
+      <p className='fw-bold'>ClOTHE TREATMENT</p>
+      </div>
+
+    </div>
    </div>
    </div>
    <Footer/>

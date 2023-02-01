@@ -10,6 +10,10 @@ import Footer from './Footer'
 import { Link  } from 'react-router-dom'
 import Call from '../RE-use/Call'
 import Testimonial from './Testimonial'
+import images1 from '../images/iron_318-901503.png'
+import images2 from '../images/laundry_318-903037.png'
+import images3 from '../images/dry_318-751780.png'
+import images4 from '../images/ironing_318-765187.png'
 
 const Frontpage = () => {
   useEffect(()=>{
@@ -28,8 +32,50 @@ const Frontpage = () => {
    <img data-aos="fade-up" className='mx-auto mt-4  img text-center img-fluid ' src={feel} alt="laundry"/>
      </div>
      </div>
-    
+    </div>
       <Call />
+      <div className='text-center'  data-aos="fade-left">
+
+<h1 className='text-primary h5 mb-5 mt-5 fw-bold'>List of Our Services</h1>
+
+<div className='container row mx-auto mt-4'>
+
+  <div  className='col-6 col-md-3'>
+
+    <img src={images1} alt="iron" className='w-50'/>
+
+    <p className='fw-bold mt-3'>IRONING SERVICE </p>
+    <p className='text-secondary'>
+      Get your washed clothes wrinkled free by our ironing service and look professional.
+    </p>
+
+  </div>
+
+  <div  className='col-6 col-md-3'>
+
+  <img src={images2} alt="wash and iron" className='w-50'/>
+
+  <p className='fw-bold mt-3'>WASHING</p>
+  <p className='text-secondary'>Need your clothe properly washed? you are at the right destination.</p>
+
+  </div>
+
+  <div  className='col-6 col-md-3 mt-3 mt-md-0'>
+  <img src={images3} alt="dry clean" className='w-50'/>
+  <p className='fw-bold mt-3'>DRY CLEANING</p>
+  <p className='text-secondary'>We dry clean your clothe so nice that it will look crisp when you wear it.</p>
+  </div>
+  <div  className='col-6 col-md-3 mt-3 mt-md-0'>
+  <img src={images4} alt="treat" className='w-50' />
+  <p className='fw-bold mt-3'>TREATMENT</p>
+  <p className='text-secondary'>
+    We treat your clothes perfectly for a second time or more Use.
+    with no regret.
+  </p>
+
+  </div>
+</div>
+
 
   <Next/>
   <div id='Price' className='pricelist p-3  bg-primary  ' data-aos="zoom-in">
@@ -51,14 +97,15 @@ const Frontpage = () => {
           <p>Washing + Ironing & Starching</p>
            <p>delivery in 24hrs</p>
         </div>
-       </div>
-       </div>
         <div className='text-center mt-3 py-2 '>
-        <Link to="/Pricelist"><button className='p-2 rounded bg-white fw-bold  text-primary btn'>View Pricelist</button></Link>
-        </div>  
+     <Link to="/Pricelist"><button className='p-2 rounded bg-white fw-bold  text-primary btn'>View Pricelist</button></Link>
+     </div>  
+       </div>
+       </div>
   </div>
 
-  <About  data-aos="flip-in"/>
+
+  <About />
   <Testimonial />
 <Footer />
     </div>

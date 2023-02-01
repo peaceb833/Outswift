@@ -7,6 +7,8 @@ import Signuppage from './component/Signuppage';
 import Learnmore from './component/Learnmore';
 import Booknow from './component/Booknow';
 import ScrollToTop from './component/ScrollToTop';
+import Cart from './component/Cart';
+
 
 
 const App=()=>{
@@ -25,6 +27,8 @@ const App=()=>{
       <Route  path='/Signuppage' element={<Signuppage/>} ></Route>
       <Route  path='/Learnmore' element={<Learnmore/>} ></Route>
       <Route  path='/Booknow' element={<Booknow/>} ></Route>
+      <Route  path='/Cart' element={<Cart/>} ></Route>
+
      </Routes>
   </ScrollToTop>
      </Router>

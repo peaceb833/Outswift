@@ -13,8 +13,8 @@ const Footer = () => {
     <div>
     <footer id='Contact' >
 <div className=' footer bg-secondary   '>
-   <div className=" container row">
-        <div class="re  col-6 col-md-4 ">
+   <div className=" container row ">
+        <div class="re  col-6 col-md-4 mt-4 ">
           <p class="last-title text-center small  text-white fw-bold ">Quick Links</p>
           <ul class="remove mt-3 text-white liststyle-none small ">
             <Link to='/' className="info text-white"> <li className='mx-3'>About Us</li></Link>
@@ -25,7 +25,7 @@ const Footer = () => {
            <Link to='/'  className="info text-white"><li className='mx-3'>All Locations</li></Link>
 </ul>
 </div>
-        <div class=" re col-6 col-md-4  ">
+        <div class=" re col-6 col-md-4 mt-4  ">
           <p class=" text-white fw-bold text-center small">Our Service</p>
           <ul class="remove text-left  small">
          <Link to='/' className="info  text-white"> <li>Laundry Service</li></Link>

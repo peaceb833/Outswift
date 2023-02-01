@@ -8,7 +8,7 @@ import fourth from '../images/240_F_391347204_XaDg0S7PtbzJRoeow3yWO1vK4pnqBVQY.j
 function Testimonial() {
   return (
     <>
-    <div className='bg-light p-3'>
+    <div className='bg-light '>
     <h4 className='text-center text-primary mt-3 mb-5 '>Testimony</h4>
     <Carousel fade>
       <Carousel.Item>
@@ -16,9 +16,9 @@ function Testimonial() {
           className="d-block w-75 mx-auto rounded"
           src={first} alt="testimony"
         />
-       <div className='text-center w-75 mx-auto'>
-          <h5 className='text-primary text-center fw-bold'>John Ogbonna</h5>
-          <p className='text-secondary'>Outswift laundry is one of the best that I have navigated. It saves me the walking, parking, getting change,
+       <div className=' w-75 mx-auto'>
+          <h5 className='text-primary h6 mt-2 text-center fw-bold'>John Ogbonna</h5>
+          <p className='text-secondary mx-auto'>Outswift laundry is one of the best that I have navigated. It saves me the walking, parking, getting change,
              waiting to use a dryer in a launderette and folding of clothes. I'm glad I found it.</p>
           </div>
       </Carousel.Item>
@@ -30,8 +30,8 @@ function Testimonial() {
         />
 
           <div className='text-center w-75 mx-auto'>
-          <h5 className='text-primary text-center'>Damilola Oyinloye</h5>
-          <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5 className='text-primary h6 mt-2 text-center'>Damilola Oyinloye</h5>
+          <p className='text-secondary mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         
       </Carousel.Item>
@@ -43,8 +43,8 @@ function Testimonial() {
         />
 
        <div className='text-center w-75 mx-auto'>
-          <h3 className='text-primary text-center'>Faith odoma</h3>
-          <p className='text-secondary'>
+          <h3 className='text-primary text-center h6 mt-2'>Faith odoma</h3>
+          <p className='text-secondary mx-auto'>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
        </div>
@@ -57,8 +57,8 @@ function Testimonial() {
     alt="fourth slide"
   />
  <div className='text-center w-75 mx-auto'>
-    <h3 className='text-primary text-center'>Mattew Tobi</h3>
-    <p className='text-secondary'>
+    <h3 className='text-primary text-center h6 mt-2'>Mattew Tobi</h3>
+    <p className='text-secondary mx-auto'>
       Praesent commodo cursus magna, vel scelerisque nisl consectetur.
     </p>
  </div>
