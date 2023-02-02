@@ -15,7 +15,7 @@ function BasicExample() {
   }, [])
 
   return (
-    <Navbar   className=' h6 nav px-2  ' role="button"  expand="lg"  data-aos="zoom-down">
+    <Navbar   className=' h6 nav px-2  center ' role="button"  expand="lg"  data-aos="zoom-down">
 
       <Container className='px-0  '  >
         <Navbar.Brand  data-aos="zoom-down" className=' brand' ><Link to="/"><Image/></Link></Navbar.Brand>

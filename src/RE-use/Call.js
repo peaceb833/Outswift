@@ -8,7 +8,7 @@ const Call = () => {
       <h1>
     <Link to='Time' className='text-center '>
       
-        <ChatIcon className=' p-1 text-white  bg-primary fonty 'fontSize='large'/>
+        <ChatIcon className=' p-1 text-white  bg-primary fonty shadow 'fontSize='large'/>
         
     </Link>
 </h1>

@@ -1,17 +1,18 @@
 import React from 'react'
-import Cart from './Cart'
-import { CartProvider } from 'react-use-cart'
-import Join from '../RE-use/Join'
-
+import data from '../RE-use/data'
+import Item from './Item'
 const Booknow = () => {
- 
   return (
-    <div>
-    <CartProvider>
-    <Join/>
-     <Cart  />
-   </CartProvider>
-    </div>
+    <>
+<h1 className='text-center'>All Items</h1>
+   {data.productdata.map((item, index)=>
+   {
+    return(
+   <Item title={item.Title} img={item.img} />
+    )
+  })}
+       
+ </>
   )
 }
 

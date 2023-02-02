@@ -44,7 +44,7 @@ const Frontpage = () => {
 
     <img src={images1} alt="iron" className='w-50'/>
 
-    <p className='fw-bold mt-3  text-primary'>IRONING SERVICE </p>
+    <p className='fw-bold mt-3  text-primary'>IRONING </p>
     <p className='text-secondary'>
       Get your washed clothes wrinkled free by our ironing service and look professional.
     </p>

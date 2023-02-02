@@ -11,42 +11,63 @@ const data = {
     id:1,
     img: img1,
     Title:"Shirt",
+    silver:"silver",
+    gold:"Gold",
+    premium:"premium"
 
     },
     {
       id:2,
       img: img2,
       Title:"Trouser",
+      silver:"silver",
+      gold:"Gold",
+      premium:"premium"
     },
 
     {
       id:3,
       img: img3,
       Title:"shirt",
+      silver:"silver",
+      gold:"Gold",
+      premium:"premium"
       },
 
       {
         id:4,
         img: img1,
         Title:"shirt",
+        silver:"silver",
+        gold:"Gold",
+        premium:"premium"
         },
 
         {
           id:1,
           img: img1,
           Title:"shirt",
+          silver:"silver",
+          gold:"Gold",
+          premium:"premium"
           },
 
           {
             id:5,
             img: img1,
             Title:"shirt",
+            silver:"silver",
+            gold:"Gold",
+            premium:"premium"
             },
 
             {
               id:6,
               img: img1,
               Title:"shirt",
+              silver:"silver",
+              gold:"Gold",
+              premium:"premium"
               },
 
   ]
