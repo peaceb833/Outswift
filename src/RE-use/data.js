@@ -6,14 +6,15 @@ import img3 from '../images/beautiful-men-fashion-shirt_1203-7649.webp'
 // import img6 from '../images/240_F_517843386_FxYIxJ7Nb9rGObTIsxG7OgkIl6CkhCkw.jpg'
 
 const data = {
-    productdata:[
+    product:[
     {
     id:1,
     img: img1,
     Title:"Shirt",
     silver:"silver",
     gold:"Gold",
-    premium:"premium"
+    premium:"premium",
+    price:400
 
     },
     {
@@ -22,7 +23,8 @@ const data = {
       Title:"Trouser",
       silver:"silver",
       gold:"Gold",
-      premium:"premium"
+      premium:"premium",
+      price:400
     },
 
     {
@@ -31,7 +33,8 @@ const data = {
       Title:"shirt",
       silver:"silver",
       gold:"Gold",
-      premium:"premium"
+      premium:"premium",
+      price:400
       },
 
       {
@@ -40,34 +43,38 @@ const data = {
         Title:"shirt",
         silver:"silver",
         gold:"Gold",
-        premium:"premium"
+        premium:"premium",
+        price:400
         },
 
         {
-          id:1,
+          id:5,
           img: img1,
           Title:"shirt",
           silver:"silver",
           gold:"Gold",
-          premium:"premium"
+          premium:"premium",
+          price:400
           },
 
           {
-            id:5,
+            id:6,
             img: img1,
             Title:"shirt",
             silver:"silver",
             gold:"Gold",
-            premium:"premium"
+            premium:"premium",
+            price:400
             },
 
             {
-              id:6,
+              id:7,
               img: img1,
               Title:"shirt",
               silver:"silver",
               gold:"Gold",
-              premium:"premium"
+              premium:"premium",
+              price:400
               },
 
   ]

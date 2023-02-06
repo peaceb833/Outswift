@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useCart } from 'react-use-cart';
 
-const Booknow = (props) => {
+const Subfile= (props) => {
     const {addItem }=useCart()
   return (
     <>
@@ -26,7 +26,7 @@ const Booknow = (props) => {
   )
 }
 
-export default Booknow
+export default Subfile
 
 
 
