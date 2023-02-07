@@ -6,12 +6,15 @@ height: fit-content;
 th{
    color: rgba(250, 243, 243, 0.822); 
    font-weight: bold;
+   
   
 
    
 }
 td{
-    color: rgba(250, 243, 243, 0.822); 
+    color: rgba(240, 240, 240, 0.945);
+    font-size: .8em; 
+    font-weight: bold;
    
     
     

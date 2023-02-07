@@ -29,7 +29,7 @@ function BasicExample() {
             </Nav>
           
             <Nav><Link to="/Loginpage"   className='mt-md-2 text-center mx-md-auto  mt-4 fw-bold text-primary text-decoration-none '><p className=''>Login</p></Link></Nav>
-            <Nav><Link to="/PriceList"  data-aos="fade-left" className='text-center mx-3 ' > <button className=' bb btn mx-3 fw-bold  py-2 me-3 mx-auto  text-white   bg-primary'>BOOK NOW</button></Link></Nav>
+            <Nav><Link to="/Loginpage"  data-aos="fade-left" className='text-center mx-3 ' > <button className=' bb btn mx-3 fw-bold  py-2 me-3 mx-auto  text-white   bg-primary'>BOOK NOW</button></Link></Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

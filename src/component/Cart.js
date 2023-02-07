@@ -1,6 +1,9 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
-
+import '../Css/cart.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSadTear, faTimes, faNairaSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 function Cart(props) {
 
@@ -11,58 +14,84 @@ function Cart(props) {
     totalUniqueItems,
 
     items,
-
+    totalItems,
+    cartTotal,
     updateItemQuantity,
-
     removeItem,
+   
 
   } = useCart()
 
  
 
-  if (isEmpty) return <div className='bg-primary text-center p-5 h-100 '><h5 className='text-center p-5 text-white h3 center'>Your Laundry basket is empty</h5></div>
+  if (isEmpty) return <div className=' text-center cart  '>    <div className='text-end  login'>
+
+  <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-3 bg-primary h3 text-white fw-bold"/></Link>
+
+  </div>
+<h5 className='text-center  p-5 text-primary h2 center'>Your Laundry basket is empty</h5><FontAwesomeIcon icon={faSadTear} className=" p-3  h1 bg-primary rounded text-warning fw-bold"/></div>
 
  
 
   return (
 
     <>
-<div className='bg-primary text-center'>
-      <h1 className='h4 fw-bold text-light'>Items Added ({totalUniqueItems})</h1>
+    <div className='text-end bg-primary p-3'>
+    <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-2  bg-white h3 mt-2 text-primary fw-bold"/></Link>
+    </div>
+    <div className='py-4 container'>
+<div className='row justify-content-center'>
+  <div className='  '>
+      <h1 className='h5 mb-5 fw-bold text-primary text-center'>Items Added ({totalUniqueItems})total Items:({totalItems})</h1>
 
  
 
-      <ul>
+      <table className=' table   m-0'>
+<tbody className='text-center '>
+        {items.map(item => {
+         return(
+          <tr key={item.id}  className=' mt-5'>
 
-        {items.map(item => (
+          {/* <td> */}
+            {/* <img src={item.img} className="w-25" alt='price'/> */}
+          {/* </td> */}
+          
+          <td className=''>{item.Title}</td>
+          <td>{item.price}</td>
+          <td>Quantity ({item.quantity})</td>
+          <td>
+            <button className='btn btn-primary ms-2' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
+            <button className='btn btn-primary ms-2'  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
+            <button className='btn btn-danger ms-2'  onClick={() => removeItem(item.id)}>remove</button>
 
-          <li key={item.id}  className='liststyle-type-none'>
+          </td>
 
-           
 
-            <button
-               className='fw-bold mx-3 '
-              onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
 
-            >
+            {/* <button className='fw-bold mx-3 bg-primary text-white' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}> */}
+            {/* <FontAwesomeIcon icon={faMinus} className="small"/> */}
+            {/* </button> */}
+          {/* <span className='fw-bold'>{item.quantity} </span> */}
+            {/* <button className='fw-bold mx-3 bg-primary text-white' onClick={() => updateItemQuantity(item.id, item.quantity + 1)}> */}
+                  {/* <FontAwesomeIcon icon={faPlus} className="small"/> */}
+            {/* </button> */}
 
-              -
+            {/* <button  onClick={() => removeItem(item.id)} className="btn bg-danger text-white fw-bold mx-5 ">Remove</button> */}
 
-            </button>
-          <span className='fw-bold'>{item.quantity} </span>
-            <button
-             className='fw-bold mx-3 '
-              onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>
-              +
-            </button>
+          </tr>
 
-            <button  onClick={() => removeItem(item.id)} className="btn bg-danger text-white fw-bold mx-5 ">Remove</button>
+        )})} 
+</tbody>
+      </table>
+</div>
 
-          </li>
+<div className='col-auto ms-auto mt-2'>
+  <h2 className='fw-bold h5'>Total Price:<FontAwesomeIcon icon={faNairaSign} className="small"/>{cartTotal}</h2>
 
-        ))}
-
-      </ul>
+</div>
+<div className='text-center mt-5'>
+<button className='btn btn-primary h4 m-2 w-50  fw-bold text-white' >Check Out</button></div>
+</div>
 </div>
     </>
 

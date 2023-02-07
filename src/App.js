@@ -6,9 +6,8 @@ import Pricelist from './component/Pricelist';
 import Signuppage from './component/Signuppage';
 import Learnmore from './component/Learnmore';
 import Booknow from './component/Booknow';
-import Cart from './component/Cart';
-
 import ScrollToTop from './component/ScrollToTop';
+import Basket from './component/Basket';
 
 
 const App=()=>{
@@ -20,15 +19,14 @@ const App=()=>{
     
       <ScrollToTop>
    <Routes>
-  
+    
      <Route exact path='/Loginpage' element={<Loginpage />}  ></Route>
       <Route  path='/' element={<Frontpage />} ></Route>
       <Route  path='/Pricelist' element={<Pricelist />} ></Route>
       <Route  path='/Signuppage' element={<Signuppage/>} ></Route>
       <Route  path='/Learnmore' element={<Learnmore/>} ></Route>
       <Route  path='/Booknow' element={<Booknow/>} ></Route>
-      <Route  path='/Cart' element={<Cart/>} ></Route>
-
+      <Route  path='/Basket' element={<Basket/>} ></Route>
 
      </Routes>
   </ScrollToTop>

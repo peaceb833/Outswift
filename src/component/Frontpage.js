@@ -90,11 +90,11 @@ const Frontpage = () => {
           <p>delivery in 3 Working days</p>
         </div>
         <div className='col-sm-6 col-md-4 mt-2' mt-3> <h2>Gold Plan</h2>
-          <p>Washing & Starching -</p>
+          <p>Washing & Ironing</p>
             <p>delivery in 2 Working days</p></div>
         <div className='col-sm-6 col-md-4 mt-3'>
         <h2>Platinum Plan </h2>
-          <p>Washing + Ironing & Starching</p>
+          <p>Washing + Starching</p>
            <p>delivery in 24hrs</p>
         </div>
         <div className='text-center mt-3 py-2 '>

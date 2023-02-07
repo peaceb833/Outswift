@@ -24,7 +24,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
    
           <Nav className="  text-center  fs-bold  me-md-5   mx-auto " data-aos="zoom-in" >
-             <FontAwesomeIcon icon={faShoppingBasket} className="    bg-primary   font "/>
+          <Link to="/Basket"><FontAwesomeIcon icon={faShoppingBasket} className="    bg-primary   font "/></Link>
             </Nav>
           
             <Nav><Link to="/Loginpage"   className='mt-md-2 text-center mx-md-auto  mt-4 fw-bold text-primary text-decoration-none '><p className=''>Login</p></Link></Nav>
