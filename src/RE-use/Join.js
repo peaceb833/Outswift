@@ -1,12 +1,8 @@
 import React from 'react'
 import {  useCart } from 'react-use-cart'
 import data from './data'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faNairaSign, faSearch,faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
-import Image from '../RE-use/Image'
 import { Link } from 'react-router-dom'
 
 function Join() {
