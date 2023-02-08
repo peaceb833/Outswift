@@ -89,7 +89,8 @@ const Frontpage = () => {
           <p>Just Washing</p>
           <p>delivery in 3 Working days</p>
         </div>
-        <div className='col-sm-6 col-md-4 mt-2' mt-3> <h2>Gold Plan</h2>
+        <div className='col-sm-6 col-md-4 mt-2' mt-3>
+           <h2>Gold Plan</h2>
           <p>Washing & Ironing</p>
             <p>delivery in 2 Working days</p></div>
         <div className='col-sm-6 col-md-4 mt-3'>
