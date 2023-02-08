@@ -56,14 +56,14 @@ const Pricelist = () => {
         </tr> 
     <tr>
        <td>Trouser</td>
-           <td ><FontAwesomeIcon icon={faNairaSign} className=" small text-light"/>270</td>
+           <td ><FontAwesomeIcon icon={faNairaSign} className=" small text-light"/>300</td>
            <td ><FontAwesomeIcon icon={faNairaSign} className=" small text-light" />410</td>
            <td ><FontAwesomeIcon icon={faNairaSign} className=" small text-light"/>550</td>
            
     </tr>
      <tr>
       <td>Jean trouser</td>
-       <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>230</td>
+       <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>350</td>
        <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>590</td>
        <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>650</td>
       

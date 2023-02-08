@@ -24,7 +24,7 @@ function Cart(props) {
 
  
 
-  if (isEmpty) return <div className=' text-center cart  '>    <div className='text-end  login'>
+  if (isEmpty) return <div className=' text-center cart  '><div className='text-end  login'>
 
   <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-3 bg-primary h3 text-white fw-bold"/></Link>
 
@@ -57,12 +57,13 @@ function Cart(props) {
           {/* </td> */}
           
           <td className=''>{item.Title}</td>
-          <td>{item.price}</td>
-          <td>Quantity ({item.quantity})</td>
+          <td><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
+          
           <td>
             <button className='btn btn-primary ms-2' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
+             &nbsp;  &nbsp;<span className='fw-bold text-center text-secondary'>{item.quantity} </span>
             <button className='btn btn-primary ms-2'  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
-            <button className='btn btn-danger ms-2'  onClick={() => removeItem(item.id)}>remove</button>
+            <button className='btn btn-danger ms-5'  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTimes}/></button>
 
           </td>
 
