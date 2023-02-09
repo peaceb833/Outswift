@@ -2,8 +2,10 @@ import React from 'react'
 import { useCart } from 'react-use-cart'
 import '../Css/cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSadTear, faTimes, faNairaSign } from '@fortawesome/free-solid-svg-icons'
+import { faSadTear, faTimes, faNairaSign, faTrash, faHome } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
+
 
 function Cart(props) {
 
@@ -24,20 +26,33 @@ function Cart(props) {
 
  
 
-  if (isEmpty) return <div className=' text-center cart  '><div className='text-end  login'>
+  if (isEmpty) return <div className=' text-center cart  '><div className='text-end d-flex justify-content-between bg-primary px-2'>
 
-  <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-3 bg-primary h3 text-white fw-bold"/></Link>
-
+<div>
+<Link to= '/Booknow'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
+</Link>
+</div>
+ <div >
+  <Link to= '/'><FontAwesomeIcon icon={faTimes} className="p-2  rounded bg-white h5   mt-3 text-primary fw-bold"/>
+  </Link>
+  </div>
   </div>
 <h5 className='text-center  p-5 text-primary h2 center'>Your Laundry basket is empty</h5><FontAwesomeIcon icon={faSadTear} className=" p-3  h1 bg-primary rounded text-warning fw-bold"/></div>
 
- 
 
   return (
 
     <>
-    <div className='text-end bg-primary p-3'>
-    <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-2  bg-white h3 mt-2 text-primary fw-bold"/></Link>
+    <div className='d-flex justify-content-between bg-primary px-2 '>
+   <div>
+  <Link to= '/Booknow'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
+  </Link>
+  </div>
+   <div >
+    <Link to= '/'><FontAwesomeIcon icon={faTimes} className=" p-2 rounded bg-white  h5 mt-3 text-primary fw-bold"/>
+    </Link>
+    </div>
+
     </div>
     <div className='py-4 container'>
 <div className='row justify-content-center'>
@@ -47,7 +62,7 @@ function Cart(props) {
  
 
       <table className=' table   m-0'>
-<tbody className='text-center '>
+<tbody className=' mt-5'>
         {items.map(item => {
          return(
           <tr key={item.id}  className=' mt-5'>
@@ -56,14 +71,14 @@ function Cart(props) {
             {/* <img src={item.img} className="w-25" alt='price'/> */}
           {/* </td> */}
           
-          <td className=''>{item.Title}</td>
-          <td><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
+          <td className='text-secondary'>{item.Title}</td>
+          <td className='text-secondary'><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
           
           <td>
             <button className='btn btn-primary ms-2' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
              &nbsp;  &nbsp;<span className='fw-bold text-center text-secondary'>{item.quantity} </span>
             <button className='btn btn-primary ms-2'  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
-            <button className='btn btn-danger ms-5'  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTimes}/></button>
+            <button className='btn btn-danger ms-5 '  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTrash}/></button>
 
           </td>
 
@@ -86,19 +101,21 @@ function Cart(props) {
       </table>
 </div>
 
-<div className='col-auto ms-auto mt-2'>
-  <h2 className='fw-bold h5'>Total Price:<FontAwesomeIcon icon={faNairaSign} className="small"/>{cartTotal}</h2>
-
+<div className='col-auto ms-auto mt-4'>
+  <h2 className='fw-bold h6 text-secondary'>Total Price: <FontAwesomeIcon icon={faNairaSign} className="small"/>{cartTotal}</h2>
+<hr></hr>
 </div>
 <div className='text-center mt-5'>
 <button className='btn btn-primary h4 m-2 w-50  fw-bold text-white' >Check Out</button></div>
 </div>
 </div>
+<Footer/>
     </>
 
   )
 
 }
+
 
  
 
