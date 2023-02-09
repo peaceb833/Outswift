@@ -71,14 +71,14 @@ function Cart(props) {
             {/* <img src={item.img} className="w-25" alt='price'/> */}
           {/* </td> */}
           
-          <td className='text-secondary'>{item.Title}</td>
-          <td className='text-secondary'><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
+          <td className='text-secondary '>{item.Title}</td>
+          <td className='text-secondary '><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
           
           <td>
-            <button className='btn btn-primary ms-2' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
+            <button className='btn btn-primary ms-2 ' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
              &nbsp;  &nbsp;<span className='fw-bold text-center text-secondary'>{item.quantity} </span>
-            <button className='btn btn-primary ms-2'  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
-            <button className='btn btn-danger ms-5 '  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTrash}/></button>
+            <button className='btn btn-primary ms-2 '  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
+            <button className='btn text-danger ms-2 '  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTrash} fontSize='large'/></button>
 
           </td>
 

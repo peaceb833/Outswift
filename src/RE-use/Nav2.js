@@ -5,10 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import '../Css/nav.css'
-import Image from '../RE-use/Image'
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
+import { Link as LinkScroll} from "react-scroll"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 
 function BasicExample() {
   useEffect(()=>{
@@ -16,20 +15,19 @@ function BasicExample() {
   }, [])
 
   return (
-    <Navbar   className=' h6 nav px-2  center ' role="button"  expand="lg"  data-aos="zoom-down">
+    <Navbar   className=' h6 nav  bg-primary  center fixed-bottom  ' role="button"  expand="lg"  >
 
-      <Container className='px-0  '  >
-        <Navbar.Brand  data-aos="zoom-down" className=' brand' ><Link to="/"><Image/></Link></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav "/>
-        <Navbar.Collapse id="basic-navbar-nav">
+      <Container className='px-3  '  >
    
-          <Nav className="  text-center  fs-bold  me-md-5   mx-auto " data-aos="zoom-in" >
-          <Link to="/Basket"><FontAwesomeIcon icon={faShoppingBasket} className="    bg-primary   font "/></Link>
-            </Nav>
-          
-            <Nav><Link to="/Loginpage"   className='mt-md-2 text-center mx-md-auto  mt-4 fw-bold text-primary text-decoration-none '><p className=''>Login</p></Link></Nav>
-            <Nav><Link to="/PriceList"  data-aos="fade-left" className='text-center mx-3 ' > <button className=' bb btn mx-3 fw-bold  py-2 me-3 mx-auto  text-white   bg-primary'>BOOK NOW</button></Link></Nav>
-        </Navbar.Collapse>
+          <Nav className=" fw-bold    " role="button" >
+         <LinkScroll to="silver"><p className='text-light silver fw-bold' >Silver plan</p></LinkScroll>
+         </Nav>
+         <div className='empty'></div> 
+         <Nav className='fw-bold' role="button"> <LinkScroll to="gold"><p className='text-light gold fw-bold'>Gold plan</p></LinkScroll></Nav>
+         <div className='empty'></div> 
+         <Nav className='fw-bold' role="button"> <LinkScroll to="platinum"><p className='text-light platinum fw-bold'>Platinum plan</p></LinkScroll></Nav>
+
+           
       </Container>
     </Navbar>
   );

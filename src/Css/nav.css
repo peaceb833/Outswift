@@ -18,8 +18,31 @@
 }
 .switch{
     background-color: #4A84D7;
+
 }
 .brand{
     margin-left: -2em;
 }
-
+/* .silver{ */
+    /* border-left: 2px solid gold ; */
+   /*  */
+   /*  */
+    /*  */
+/*  */
+    /*  */
+/* } */
+/* .gold{ */
+    /* border-left: 2px solid gold ; */
+   /*  */
+    /*  */
+/* } */
+/* .platinum{ */
+    /* border-left: 2px solid gold ; */
+   
+    
+/* } */
+.empty{
+    height: 10vh;
+    background-color: rgba(221, 215, 215, 0.87);
+    width: 2px;
+}
