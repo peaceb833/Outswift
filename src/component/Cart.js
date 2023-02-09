@@ -29,11 +29,11 @@ function Cart(props) {
   if (isEmpty) return <div className=' text-center cart  '><div className='text-end d-flex justify-content-between bg-primary px-2'>
 
 <div>
-<Link to= '/Booknow'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
+<Link to= '/'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
 </Link>
 </div>
  <div >
-  <Link to= '/'><FontAwesomeIcon icon={faTimes} className="p-2  rounded bg-white h5   mt-3 text-primary fw-bold"/>
+  <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className="p-2  rounded bg-white h5   mt-3 text-primary fw-bold"/>
   </Link>
   </div>
   </div>
@@ -45,11 +45,11 @@ function Cart(props) {
     <>
     <div className='d-flex justify-content-between bg-primary px-2 '>
    <div>
-  <Link to= '/Booknow'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
+  <Link to= '/'><FontAwesomeIcon icon={faHome} className=" p-3 bg-primary h3 text-white fw-bold"/>
   </Link>
   </div>
    <div >
-    <Link to= '/'><FontAwesomeIcon icon={faTimes} className=" p-2 rounded bg-white  h5 mt-3 text-primary fw-bold"/>
+    <Link to= '/Booknow'><FontAwesomeIcon icon={faTimes} className=" p-2 rounded bg-white  h5 mt-3 text-primary fw-bold"/>
     </Link>
     </div>
 
