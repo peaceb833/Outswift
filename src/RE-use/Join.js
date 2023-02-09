@@ -41,7 +41,7 @@ function Join() {
                <div class="card-body ">
                  <h5 class="card-title text-primary small h6">{p.Title}</h5>
                  <p className='fw-bold text-secondary small'><FontAwesomeIcon icon={faNairaSign} className="small text-secondary"/>{p.price}</p>
-      <button className='bg-primary text-white btn small' onClick={() => addItem(p) }>Add to cart</button>
+      <button className='bg-primary text-light small add-to-cart p-1 fw-bold'  onClick={() => addItem(p) }>Add to cart</button>
           </div>
           </div> 
           </div>
@@ -71,7 +71,7 @@ function Join() {
 
            <p className='fw-bold text-secondary small'><FontAwesomeIcon icon={faNairaSign} className="small text-secondary"/>{p.price}</p>
 
-<button className='bg-primary text-white btn' onClick={() => addItem(p) }>Add to cart</button>
+<button className='bg-primary text-light small add-to-cart p-1 fw-bold' onClick={() => addItem(p) }>Add to cart</button>
 
     </div>
 
@@ -109,7 +109,7 @@ function Join() {
 
         <p className='fw-bold text-secondary small'><FontAwesomeIcon icon={faNairaSign} className="small text-secondary"/>{p.price}</p>
 
-<button className='bg-primary text-white btn' onClick={() => addItem(p) }>Add to cart</button>
+<button className='bg-primary text-light small add-to-cart p-1 fw-bold' onClick={() => addItem(p) }>Add to cart</button>
 
  </div>
 

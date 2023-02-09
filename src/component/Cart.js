@@ -1,6 +1,7 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import '../Css/cart.css'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSadTear, faTimes, faNairaSign, faTrash, faHome } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
@@ -75,10 +76,10 @@ function Cart(props) {
           <td className='text-secondary '><FontAwesomeIcon icon={faNairaSign} className=" fw-bold"/>{item.price}</td>
           
           <td>
-            <button className='btn btn-primary ms-2 ' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
+            <button className='bg-primary ms-2  p-1 px-2  minus text-light fw-bold ' onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
              &nbsp;  &nbsp;<span className='fw-bold text-center text-secondary'>{item.quantity} </span>
-            <button className='btn btn-primary ms-2 '  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
-            <button className='btn text-danger ms-2 '  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTrash} fontSize='large'/></button>
+            <button className=' bg-primary ms-2 add p-1 px-2 fw-bold text-light'  onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
+            <button className='btn text-danger  ms-2  '  onClick={() => removeItem(item.id)}><FontAwesomeIcon icon={faTrash} fontSize='large'/></button>
 
           </td>
 
