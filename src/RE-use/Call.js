@@ -11,8 +11,8 @@ const Call = () => {
   return (
     <div className='text-end mb-5 pb-5 fw-bold h1 fixed-bottom   '>
       <h1 className='d-block'>
-        <div>
-      <Link to='' className='text-center '>
+        <div className=' '>
+      <Link to='' className='text-center  '>
      <FacebookIcon className=' p-1 mt-4 text-white  bg-primary fonty shadow' />
      </Link>
      </div>

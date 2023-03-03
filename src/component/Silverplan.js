@@ -14,9 +14,11 @@ const Silverplan = () => {
       
       <CartProvider>
         <Header/>       
-      <Nav2 />
-      </CartProvider>
+        <Nav2 />
       <Productlist/>
+        
+      </CartProvider>
+     
     </div>
   );
 };

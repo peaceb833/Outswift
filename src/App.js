@@ -9,7 +9,6 @@ import Plans from './component/Plans';
 import Silverplan from './component/Silverplan';
 import Goldplan from './component/Goldplan';
 import Platinum from './component/Platinum';
-
 import ScrollToTop from './component/ScrollToTop';
 import Cart from './component/Cart';
 import Productlist from './component/Productlist';
@@ -66,15 +65,7 @@ const App=()=>{
 <Route  path='/Cart' element={<Cart/>} ></Route>
 
 <Route  path='/checkout' element={<Checkout/>} ></Route>
-
- 
-
 <Route  path='Productlist' element={<Productlist/>} ></Route>
-
-
-
-
-
 </Routes>
 
 </ScrollToTop>
