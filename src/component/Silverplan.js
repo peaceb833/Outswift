@@ -3,7 +3,6 @@ import React from 'react';
 import { CartProvider} from 'react-use-cart';
 import Productlist from './Productlist';
 import Nav2 from '../RE-use/Nav2';
-import Cart from './Cart';
 import Header from './Header';
 
 const Silverplan = () => {
@@ -14,8 +13,7 @@ const Silverplan = () => {
     
       
       <CartProvider>
-        <Header/>
-                
+        <Header/>       
       <Nav2 />
       </CartProvider>
       <Productlist/>
