@@ -9,7 +9,6 @@ import React, { useEffect } from 'react'
 import Nav from '../RE-use/Nav'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Call from '../RE-use/Call'
 const Pricelist = () => {
         useEffect(()=>{
           AOS.init({duration:2000}); 
@@ -19,7 +18,7 @@ const Pricelist = () => {
     <div className='list bg-primary list ' id='Pricelist'>
         <Nav />
       <div className=' mt-4 p-2 '>
-        <Call />
+      
      
         <h1 className='h3 text-light fw-bold text-center mb-5  ' data-aos="fade-down">Outswift Pricelist</h1>
         <table className="table table-striped" data-aos="fade-down">
@@ -72,7 +71,7 @@ const Pricelist = () => {
      <td>Singlet</td>
      <td >160</td>
      <td >250</td>
-     <td >230</td>
+     <td >300</td>
      
      </tr> 
       <tr>
@@ -121,7 +120,7 @@ const Pricelist = () => {
      <td>Female native wears</td>
      <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>550</td>
      <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>820</td>
-     <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>340</td>
+     <td ><FontAwesomeIcon icon={faNairaSign} className=" small"/>940</td>
     
  </tr>
  <tr>
@@ -170,7 +169,7 @@ const Pricelist = () => {
 </tr>
 <tr>
     <td>Curtain</td>
-    <td><FontAwesomeIcon icon={faNairaSign} className=" small"/>760</td>
+    <td><FontAwesomeIcon icon={faNairaSign} className=" small"/>760  </td>
     <td><FontAwesomeIcon icon={faNairaSign} className=" small"/>1,140</td>
     <td><FontAwesomeIcon icon={faNairaSign} className=" small"/>1,520</td>
     

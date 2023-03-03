@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
     <footer id='Contact' >
-<div className=' footer bg-secondary   '>
+<div className=' footer bg-primary   '>
    <div className=" container row ">
         <div class="re  col-6 col-md-4 mt-4 ">
           <p class="last-title text-center small  text-white fw-bold ">Quick Links</p>

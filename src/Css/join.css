@@ -63,4 +63,9 @@ width: 8em;
     border:none;
     border-radius: 6px;
  }     
-       
+    
+ .count{
+   margin-top: -8em;
+   text-decoration: none;
+   padding: -6px;
+ }

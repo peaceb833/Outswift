@@ -1,16 +1,27 @@
-import React from 'react'
-const Item = ({title,img}) => {
-  return (
-    <>
-    <div className='container row'>
-    <div className='col-6 col-md-6 col-lg-3  mx-0 mb-4'>
-</div>
-</div>
-    </>
-  )
-}
+// import React from 'react'
+// import { Link } from 'react-router-dom'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default Item
+// import {faNairaSign, faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
+
+// const Item = ({Title,img,price}) => {
+//   return (
+//     <>
+//     <aside className='fixed-top text-end pt-5 mt-5 mx-1'><Link to="/Cart"><FontAwesomeIcon icon={faShoppingBasket} className="  shadow  bg-primary text-white p-2 rounded   basket  "/><span className='text-white '>0</span></Link>
+//     </aside>
+//    <div class="card">
+//   <img class="card-img-top" src={img} alt="Card image cap"/>
+//   <div class="card-body">
+//     <h5 class="card-title h6 text-primary">{Title}</h5>
+//     <p class="card-text small fw-bold text-secondary"><FontAwesomeIcon icon={faNairaSign} className='small'/>{price}</p>
+//     <button class="btn btn-primary">Add to cart</button>
+//   </div>
+// </div>
+//     </>
+//   )
+// }
+
+// export default Item
 
 
 

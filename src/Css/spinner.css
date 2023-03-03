@@ -1,0 +1,48 @@
+.spinner-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../images/row-folded-colorful-soft-napkin-against-blue-background_23-2148184406.jpg);
+    background-size: cover;
+  }
+  .text{
+    color: rgb(96, 96, 133);
+    text-shadow: 1px 1px 2px rgb(51, 51, 75);
+  }
+  
+  .spinner {
+    border-radius: 50%;
+   
+    width: 7em;
+    height: 7em;
+    margin: 10em 6em 3em 6em ;
+    position: relative;
+    animation: slidein 1s 1 ease-in;
+    animation: spin 3s infinite linear;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+   
+  }
+  @keyframes slidein {
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+      }
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -14,6 +14,7 @@ import images1 from '../images/iron_318-901503.png'
 import images2 from '../images/laundry_318-903037.png'
 import images3 from '../images/dry_318-751780.png'
 import images4 from '../images/ironing_318-765187.png'
+import FAQ from './FAQ'
 
 const Frontpage = () => {
   useEffect(()=>{
@@ -95,7 +96,7 @@ const Frontpage = () => {
             <p>delivery in 2 Working days</p></div>
         <div className='col-sm-6 col-md-4 mt-3'>
         <h2>Platinum Plan </h2>
-          <p>Washing + Starching</p>
+          <p>Washing + Starching + Ironing</p>
            <p>delivery in 24hrs</p>
         </div>
         <div className='text-center mt-3 py-2 '>
@@ -108,6 +109,7 @@ const Frontpage = () => {
 
   <About />
   <Testimonial />
+  <FAQ/>
 <Footer />
     </div>
     

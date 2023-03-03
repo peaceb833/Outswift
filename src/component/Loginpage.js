@@ -28,7 +28,7 @@ const Loginpage = () => {
 
   
     <div className='text-center '> 
- <Link to="/Booknow"><button type="submit" class="btn bg-primary text-light fw-bold w-75 text-center mt-4 px-4">Login</button></Link>
+ <Link to="/Plans"><button type="submit" class="btn bg-primary text-light fw-bold w-75 text-center mt-4 px-4">Login</button></Link>
   <p className='mt-5 small text-secondary'>Dont have account yet?<Link to='/Signuppage' className='text-decoration-none'><span className='text-primary fw-bold'> Signup </span></Link></p>
   </div>
   

@@ -15,27 +15,28 @@ import img14 from '../images/jean.jpg'
 // import img15 from '../images/240_F_517843386_FxYIxJ7Nb9rGObTIsxG7OgkIl6CkhCkw.jpg'
 // 
 
-const data = {
+const data3 = {
     product:[
     {
     id:1,
     img: img1,
     Title:"Shirt",
-    price:320
+    platinum:650
 
     },
     {
       id:2,
       img: img2,
       Title:"coloured polo",
-      price:270
+      platinum:550
+
     },
 
     {
       id:3,
       img: img3,
       Title:"white polo",
-      price:400
+      platinum:510
       },
       
      
@@ -44,115 +45,74 @@ const data = {
         id:4,
         img: img4,
         Title:"gown",
-        silver:"silver",
-        gold:"Gold",
-        premium:"premium",
-        price:300
+        platinum:700
         },
 
         {
           id:5,
           img: img5,
           Title:"Singlet",
-          silver:"silver",
-          gold:"Gold",
-          premium:"premium",
-          price:350
+          platinum:300
           },
 
           {
             id:6,
             img: img6,
             Title:"female native wear",
-            silver:"silver",
-            gold:"Gold",
-            premium:"premium",
-            price:400
+            platinum:940
             },
 
             {
               id:7,
               img: img7,
               Title:"School Uniform(seniors) ",
-              silver:"silver",
-              gold:"Gold",
-              premium:"premium",
-              price:400
+              platinum:870
               },
              {
               id:8,
               img: img8,
               Title:"School Uniform(juniors)",
-              silver:"silver",
-              gold:"Gold",
-              premium:"premium",
-              price:400
+              platinum:510
               },
               {
                 id:9,
                 img: img9,
                 Title:"Duvet",
-                silver:"silver",
-                gold:"Gold",
-                premium:"premium",
-                price:400
+                platinum:"4,330"
                 },
                 {
                   id:10,
                   img: img10,
                   Title:"pair of socks",
-                  silver:"silver",
-                  gold:"Gold",
-                  premium:"premium",
-                  price:400
+                  platinum:330
                   },
                   {
                     id:11,
                     img: img11,
                     Title:"small bed sheet",
-                    silver:"silver",
-                    gold:"Gold",
-                    premium:"premium",
-                    price:400
+                    platinum:"1,520"
                     },
                     {
                       id:12,
                       img: img12,
                       Title:"towel",
-                      silver:"silver",
-                      gold:"Gold",
-                      premium:"premium",
-                      price:400
+                      platinum:"1,300"
                       },
                       {
                         id:13,
                         img: img13,
                         Title:"Curtain",
-                        silver:"silver",
-                        gold:"Gold",
-                        premium:"premium",
-                        price:400
+                        platinum:"1,520"
                         },
                         {
                        id:14,
                        img: img14,
                        Title:"Jean Trouser",
-                       silver:"silver",
-                       gold:"Gold",
-                       premium:"premium",
-                       price:400
+                       platinum:650
                        },
-             
-             
-             
-             
-             
-             
-             
-             
 
   ]
   }
 
 
-export default data
+export default data3

@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import '../Css/nav.css'
-import { Link as LinkScroll} from "react-scroll"
+import  {Link} from "react-scroll"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 
@@ -20,12 +20,12 @@ function BasicExample() {
       <Container className='px-3  '  >
    
           <Nav className=" fw-bold    " role="button" >
-         <LinkScroll to="silver"><p className='text-light silver fw-bold' >Silver plan</p></LinkScroll>
+         <Link to="silver"><p className='text-light silver fw-bold' >Silver plan</p></Link>
          </Nav>
          <div className='empty'></div> 
-         <Nav className='fw-bold' role="button"> <LinkScroll to="gold"><p className='text-light gold fw-bold'>Gold plan</p></LinkScroll></Nav>
+         <Nav className='fw-bold' role="button"> <Link to="gold"> <p className='text-light gold fw-bold'>Gold plan</p></Link></Nav>
          <div className='empty'></div> 
-         <Nav className='fw-bold' role="button"> <LinkScroll to="platinum"><p className='text-light platinum fw-bold'>Platinum plan</p></LinkScroll></Nav>
+         <Nav className='fw-bold' role="button"> <Link to="platinum"><p className='text-light platinum fw-bold'>Platinum plan</p></Link></Nav>
 
            
       </Container>
